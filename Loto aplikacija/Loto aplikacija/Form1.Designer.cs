@@ -126,6 +126,7 @@
             this.btnUplati.TabIndex = 7;
             this.btnUplati.Text = "Uplati";
             this.btnUplati.UseVisualStyleBackColor = true;
+            this.btnUplati.Click += new System.EventHandler(this.btnUplati_Click);
             // 
             // groupBoxDobitni
             // 
@@ -152,6 +153,7 @@
             this.btnOdigraj.TabIndex = 7;
             this.btnOdigraj.Text = "Odigraj";
             this.btnOdigraj.UseVisualStyleBackColor = true;
+            this.btnOdigraj.Click += new System.EventHandler(this.btnOdigraj_Click);
             // 
             // txtDobitniBroj7
             // 
